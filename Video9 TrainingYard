@@ -1,0 +1,23 @@
+cls()
+
+x = 30
+y = 50
+
+w = 60
+h = 10
+
+--layer one
+rect( x+1, y ,x+w+1 ,y+h+1,5)
+
+-- background
+
+rectfill( x, y ,x+w ,y+h,1)
+
+--outline
+rect( x, y ,x +w,y+h,6 )
+
+--bar
+rectfill(x+1, y+1 ,x+w/2 ,y+h-1,8)
+
+
+pset(x,y,15)
